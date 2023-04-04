@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Digital Calculator(Soham Patil)</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font.awesome/4.7.0/css.awesome.nin.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="display">
+        <input id="scrn" type="text" placeholder="0" />
+      </div>
+      <div class="btns">
+        <div class="row">
+          <button class="btn">%</button>
+          <button class="" onclick="fact()">x!</button>
+          <button class="btn">(</button>
+          <button class="btn">)</button>
+          <button id="ce" onclick="backspc()">CE</button>
+          <button id="ac" onclick="screen.value=''">AC</button>
+        </div>
+        <div class="row">
+          <button onclick="sin()">sin</button>
+          <button onclick="qube()">X³</button>
+          <button class="btn">7</button>
+          <button class="btn">8</button>
+          <button class="btn">9</button>
+          <button class="btn">+</button>
+        </div>
+        <div class="row">
+          <button onclick="cos()">cos</button>
+          <button onclick="squr()">x²</button>
+          <button class="btn">4</button>
+          <button class="btn">5</button>
+          <button class="btn">6</button>
+          <button class="btn">-</button>
+        </div>
+        <div class="row">
+          <button onclick="tan()">tan</button>
+          <button onclick="pow()">10^x</button>
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">×</button>
+        </div>
+        <div class="row">
+          <button onclick="log()">log</button>
+          <button onclick="sqrt()">√x</button>
+          <button class="btn">.</button>
+          <button class="btn">0</button>
+          <button class="result" onclick="result()">=</button>
+          <button class="btn">÷</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

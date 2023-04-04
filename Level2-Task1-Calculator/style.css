@@ -1,0 +1,76 @@
+body {
+  background: rgb(2, 36, 41);
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  user-select: none;
+}
+.container {
+  margin-left: 2em;
+  padding: 25px;
+  border-radius: 15px;
+  border: 2.5px solid rgb(16, 170, 253);
+  box-shadow: 15px 15px 15px rgb(26, 24, 24), 15px 15px 20px rgb(26, 24, 24);
+  background: #090016;
+}
+
+.row button {
+  background: #000;
+  margin: 5px;
+  color: white;
+  width: 60px;
+  height: 35px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.08s;
+  box-shadow: 1px 1px 5px rgb(180, 250, 255), inset -1px -1px 5px #00000020;
+}
+.row button:before {
+  background: #000;
+  margin: 5px;
+  color: white;
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.08s;
+}
+.row button:hover {
+  box-shadow: 1px 1px 5px rgb(8, 30, 44), inset -1px -1px 10px rgb(1, 14, 22);
+  color: rgb(0, 238, 255);
+  font-size: 16px;
+}
+.display #scrn {
+  margin-bottom: 0.5em;
+  width: auto;
+  color: whitesmoke;
+  height: 70px;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  background: rgb(16, 16, 22);
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px #fff, inset -1px -1px 3px #00000020;
+  text-align: right;
+  padding-right: 0.3em;
+}
+#ce {
+  background-color: rgb(27, 192, 27);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+#ac {
+  background-color: rgb(243, 12, 12);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.result {
+  text-size: large;
+  font-weight: bolder;
+  color: #fff;
+}
